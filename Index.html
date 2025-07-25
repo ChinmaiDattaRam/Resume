@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chinmai Datta Ram | Resume</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #1985a1;
+      --accent: #ebf2fa;
+      --link: #127681;
+      --shadow: 0 4px 16px rgba(25, 133, 161, 0.11);
+    }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: linear-gradient(120deg, #daecfc 0%, #f6fdff 100%);
+      color: #25272a;
+      font-family: 'Roboto', Arial, sans-serif;
+      min-height: 100vh;
+    }
+    .wrapper {
+      max-width: 800px;
+      margin: 36px auto;
+      background: #fff;
+      border-radius: 15px;
+      box-shadow: var(--shadow);
+      padding: 0 0 40px 0;
+    }
+    header {
+      text-align: left;
+      background: var(--primary);
+      color: #fff;
+      padding: 32px 32px 20px 32px;
+      border-radius: 15px 15px 0 0;
+    }
+    header h1 {
+      font-family: 'Montserrat', sans-serif;
+      margin: 0 0 10px 0;
+      font-size: 2.4rem;
+      font-weight: 700;
+    }
+    header p {
+      margin: 0 0 14px 0;
+      font-size: 1.08em;
+      opacity: 0.96;
+    }
+    .info-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px 20px;
+      align-items: center;
+    }
+    .info-list span {
+      font-size: 0.95em;
+      background: var(--accent);
+      color: var(--primary);
+      padding: 3px 10px;
+      border-radius: 9px;
+      font-weight: 500;
+      margin-right: 0.8em;
+    }
+    nav {
+      background: #f5f9fc;
+      padding: 0.8rem 2rem;
+      display: flex;
+      gap: 22px;
+      font-size: 1rem;
+      border-bottom: 1.5px solid #e3eaf2;
+      font-family: 'Montserrat', sans-serif;
+    }
+    nav a {
+      color: var(--primary);
+      text-decoration: none;
+      transition: color 0.19s;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      border-bottom: 2px solid transparent;
+      padding-bottom: 2px;
+    }
+    nav a:hover {
+      color: #0e5969;
+      border-bottom: 2px solid var(--primary);
+    }
+    section {
+      margin: 30px 38px 0 38px;
+      padding: 0 0 8px 0;
+      border-radius: 14px;
+      background: none;
+    }
+    section h2 {
+      color: var(--primary);
+      font-size: 1.19em;
+      text-transform: uppercase;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      border-bottom: 1px solid #e7eaf0;
+      margin-bottom: 9px;
+      padding-bottom: 4px;
+      letter-spacing: 0.6px;
+    }
+    ul, ol { margin: 9px 0 0 24px;}
+    li { margin-bottom: 7px;}
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px 48px;
+    }
+    .skills-list {
+      padding-left: 0;
+      list-style: none;
+      margin: 0;
+    }
+    .skills-list li {
+      margin-bottom: 4px;
+      padding-left: 0;
+      position: relative;
+    }
+    .skills-list li::before {
+      content: '▸';
+      color: var(--primary);
+      font-weight: bold;
+      margin-right: 7px;
+      opacity: 0.8;
+    }
+    a.custom-link {
+      color: var(--link);
+      text-decoration: none;
+      font-weight: 600;
+    }
+    a.custom-link:hover { text-decoration: underline; color: #095f67; }
+    @media (max-width: 700px) {
+      .wrapper { padding: 0 0 28px 0; }
+      section { margin: 20px 10px 0 10px; }
+      header { padding: 28px 15px 14px 15px;}
+      nav { padding: 0.7rem 0.6rem;}
+      .grid-2 { grid-template-columns: 1fr; gap: 0; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <h1>Chinmai Datta Ram</h1>
+      <p><em>Information Science & Engineering Undergraduate</em></p>
+      <div class="info-list">
+        <span>Bangalore, Karnataka, 560078</span>
+        <span>7204973434</span>
+        <span><a class="custom-link" href="mailto:chinmairam2404@gmail.com">chinmairam2404@gmail.com</a></span>
+        <span><a class="custom-link" href="https://www.linkedin.com/in/chinmai-datta-ram-087095377/" target="_blank">LinkedIn</a></span>
+      </div>
+    </header>
+    <nav>
+      <a href="#objective">Objective</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#activities">Activities</a>
+    </nav>
+
+    <section id="objective">
+      <h2>Objective</h2>
+      <p>Motivated Information Science & Engineering undergraduate with a strong foundation in coding, problem-solving, and data management. Eager to apply engineering expertise and analytical skills in a dynamic technology-driven environment. Seeking an internship opportunity to gain real-world experience, contribute to innovative digital solutions, and grow within a forward-thinking organization.</p>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <ul>
+        <li>
+          <strong>Bachelor of Engineering in Information Science & Engineering</strong><br>
+          BMS College of Engineering, Bangalore, Karnataka<br>
+          <span style="color:#444">CGPA:</span> <span style="color:#0b8fbe;font-weight:600">9.3</span> &nbsp;&nbsp;
+          <span style="color:#444">Expected Graduation:</span> 2027<br>
+          <span style="color:#6ba8a4;font-weight:600">Key coursework:</span> Database Management Systems, Software Engineering, Data Structures & Algorithms
+        </li>
+        <li>
+          <strong>Pre-University</strong> – BASE PU College, Bangalore, Karnataka<br>
+          <span style="color:#444">Completed:</span> 2023 &nbsp; | &nbsp; <span style="color:#0b8fbe;font-weight:600">94%</span>
+        </li>
+        <li>
+          <strong>Secondary School</strong> – Sharada Residential School, Udupi, Karnataka<br>
+          <span style="color:#444">Completed:</span> 2021 &nbsp; | &nbsp; <span style="color:#0b8fbe;font-weight:600">93%</span>
+        </li>
+      </ul>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="grid-2">
+        <ul class="skills-list">
+          <li><b>Languages:</b> Java, Python, C++</li>
+          <li><b>Databases:</b> MySQL, MongoDB</li>
+          <li><b>Concepts:</b> OOP, Algorithms, Data Structures</li>
+          <li><b>Tools:</b> Git, Visual Studio Code</li>
+        </ul>
+        <ul class="skills-list">
+          <li>Strong written and verbal English communication</li>
+          <li>Adaptable and self-motivated with a willingness to learn</li>
+          <li>Demonstrated teamwork and active listening skills</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="activities">
+      <h2>Leadership & Extracurricular</h2>
+      <ul>
+        <li><b>House Captain</b>, Sharada Residential School (Udupi)<br>
+          Led and motivated house members during competitions and school events.</li>
+        <li><b>Cricket Team Member</b>, Sharada Residential School<br>
+          Contributed as a player to the school cricket team that won the Inter-School Cricket Cup, demonstrating teamwork, discipline, and competitive spirit.</li>
+      </ul>
+    </section>
+  </div>
+</body>
+</html>
